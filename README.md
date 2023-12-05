@@ -1,7 +1,7 @@
 <h1>Using Linux to manage file permissions</h1>
 
 
-<h2>Description and Scenario</h2>
+<h2>Project description and scenario</h2>
 
 The research team in my company has requested an update of the permissions to access specific files within the `projects` directory. After examination, it appears that the existing permissions do not match the authorisation that should be given. Updating these permissions will allow the research team to carry out their job and keep the system secure. 
 <br/>
