@@ -2,8 +2,9 @@
 
 
 <h2>Description and Scenario</h2>
+
 The research team in my company has requested an update of the permissions to access specific files within the `projects` directory. After examination, it appears that the existing permissions do not match the authorisation that should be given. Updating these permissions will allow the research team to carry out their job and keep the system secure. 
-<br />
+<br/>
 
 <h2>Program walk-through:</h2>
 
