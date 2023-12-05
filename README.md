@@ -2,7 +2,8 @@
 
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+The research team in my company has requested an update of the permissions to access specific files within the projects directory. After examination, it appears that the existing permissions do not match the authorisation that should be given. Updating these permissions will allow the research team to carry out their job and keep the system secure. To achieve this, I applied the following:![image](https://github.com/arnius88/LinuxPermissions/assets/152484037/a5fcbc75-ff78-4e96-8f04-88ede21f88f0)
+
 <br />
 
 
