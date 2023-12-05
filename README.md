@@ -8,34 +8,35 @@ The research team in my company has requested an update of the permissions to ac
 
 <h2>Program walk-through:</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <h3><p align="center">Check file and directory details: </h3>
+
+To determine the existing permissions in the `/home/researcher2/projects` directory, the following command was used in Linux:<br />
+
+<img width="60%" alt="image" src="https://github.com/arnius88/LinuxPermissions/assets/152484037/22e69d99-81dd-4ed5-8987-f37c9201153f">
+<br/>
+
+The standard output shows the current permissions for each file and directory in the `/home/researcher2/projects` directory:
+<br/>
+
+<img width="60%" alt="image" src="https://github.com/arnius88/LinuxPermissions/assets/152484037/7cfed10f-e453-49d3-bf45-d275345b8a13">
+<br/>
+
+In order to check the existing permissions for each file I used the `ls` command together with the `-la` option to display a detailed listing of the file contents, including hidden files. The output of my command indicates that there are eight elements within the folder: one directory named `drafts`; one hidden file named `.project_x.txt`; and five other project files. The 10-character string at the beginning of each line indicates the permissions set on each file or directory.<br />
+
+<h3><p align="center">
+Describe the permissions string: <h3/>
+
+<img width="60%" alt="image" src="https://github.com/arnius88/LinuxPermissions/assets/152484037/59bd7979-20fa-4146-bcda-a8212f383c20">
+
+In the example above, the line describing permissions for the `project_m.txt` file begins with a 10-digits string. Each character conveys different information about the permissions.
 <br />
+
+The **first character** indicates the type of file we’re looking at:
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+
+
+
 
 <!--
  ```diff
