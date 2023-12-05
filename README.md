@@ -24,9 +24,10 @@ The standard output shows the current permissions for each file and directory in
 In order to check the existing permissions for each file I used the `ls` command together with the `-la` option to display a detailed listing of the file contents, including hidden files. The output of my command indicates that there are eight elements within the folder: one directory named `drafts`; one hidden file named `.project_x.txt`; and five other project files. The 10-character string at the beginning of each line indicates the permissions set on each file or directory.<br />
 
 <h3><p align="center">
-Describe the permissions string: <h3/>
+Describe the permissions string: </h3>
 
 <img width="60%" alt="image" src="https://github.com/arnius88/LinuxPermissions/assets/152484037/59bd7979-20fa-4146-bcda-a8212f383c20">
+<br />
 
 In the example above, the line describing permissions for the `project_m.txt` file begins with a 10-digits string. Each character conveys different information about the permissions.
 <br />
@@ -34,8 +35,30 @@ In the example above, the line describing permissions for the `project_m.txt` fi
 The **first character** indicates the type of file we’re looking at:
 <br />
 
++ `d` for directory
++ `-` for a regular file
+<br />
 
+The **second to fourth characters** indicate the type of permission for the User owner:
+<br />
 
++	`r` for read
++	`w` for write
++	`x` for execute
++	in case of lack of permission, `-` will appear.
+<br />
+
+The **fifth to seventh characters** indicate the type of permission for the Group owner:
+<br />
+
++	`r` for read
++	`w` for write
++	`x` for execute
++	in case of lack of permission, `-` will appear.
+<br />
+
+In the example above, we are looking at a regular file type named `project_m.txt` where the User owner has permission to both read and write the file, the Group owner has read only permission and the Other owner lacks any permission. In this case, no owner has execute permission on the file.
+<br/>
 
 
 <!--
