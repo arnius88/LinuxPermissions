@@ -122,13 +122,3 @@ In the above example, I only needed to remove execute permission from the Group 
 
 In the above example, I have shown my ability to update the existing permissions in the `projects` directory using Linux command-line in order to match the level of authorization my organization wanted. The main command that allowed me to achieve this was `chmod`.
 <br/>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
