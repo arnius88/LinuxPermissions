@@ -106,7 +106,7 @@ allowed me to revoke write permissions to both User (`u-w`) and Group (`g-w`). A
 Currently, both User and Group owners have execute permission enabled for the directory named `drafts`. However, the company decided that only User owner (in this case `researcher2`) should have execute permission on that specific directory.
 <br/>
 
-<img width="60%" alt="image" src="https://github.com/arnius88/LinuxPermissions/assets/152484037/a6969f15-4d8e-4ea9-9914-f08d9ff59267">
+<img width="80%" alt="image" src="https://github.com/arnius88/LinuxPermissions/assets/152484037/a6969f15-4d8e-4ea9-9914-f08d9ff59267">
 <br/>
 
 In order to modify the permissions accordingly I used the following command on Linux:
