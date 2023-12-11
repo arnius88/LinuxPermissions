@@ -26,7 +26,7 @@ In order to check the existing permissions for each file I used the `ls` command
 <h3><p align="center">
 Describe the permissions string: </h3>
 
-<img width="60%" alt="image" src="https://github.com/arnius88/LinuxPermissions/assets/152484037/59bd7979-20fa-4146-bcda-a8212f383c20">
+<img width="80%" alt="image" src="https://github.com/arnius88/LinuxPermissions/assets/152484037/59bd7979-20fa-4146-bcda-a8212f383c20">
 <br />
 
 In the example above, the line describing permissions for the `project_m.txt` file begins with a 10-digits string. Each character conveys different information about the permissions.
@@ -62,7 +62,7 @@ In the example above, we are looking at a regular file type named `project_m.txt
 
 <h3><p align="center">Change file permissions:</h3>
 
-<img width="60%" alt="image" src="https://github.com/arnius88/LinuxPermissions/assets/152484037/c8194b8b-3669-45c7-a441-856fd5863f96">
+<img width="80%" alt="image" src="https://github.com/arnius88/LinuxPermissions/assets/152484037/c8194b8b-3669-45c7-a441-856fd5863f96">
 <br/>
 
 I received a request to revoke write permission for the Other owner from the file named `project_k.txt`.
